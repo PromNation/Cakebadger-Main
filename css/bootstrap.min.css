@@ -10,22 +10,32 @@ body{
 
 #followBar{
 	font-size: 20px;
-	position:absolute;
-	margin-left: 520px;
-	width:600px;
-	display:inline;
+	
+	float:right;
+	width:50%;
+
 	text-align: center;
 }
 
 #twitter{
-	float: left;
-	width:500px;
+	float:left;
+	width:45%;
+    margin-left: 10px;
 
 }
 
-
-
+#title{
+    width:50%;
+    float:right;
+}
 footer{
 	clear:both;
    
+}
+.paging-button {
+  visibility: hidden;
+}
+
+.button-container {
+  clear: both;
 }
